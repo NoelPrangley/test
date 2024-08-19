@@ -1,2 +1,4 @@
 #!/bin/sh
-echo 'i=1; for a in $@; do echo "$i = $a"; i=$((i+1)); done'
+echo "Username: $1";
+echo "Age: $2";
+echo "Full Name: $3";
