@@ -1,4 +1,4 @@
 #!/bin/sh
-echo "Username: $1";
-echo "Age: $2";
-echo "Full Name: $3";
+echo "$1";
+echo "$2";
+echo "$3";
