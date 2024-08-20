@@ -1,5 +1,10 @@
 #! /bin/bash
-echo ' echo " what up doc "'
+echo "What's your name?" 
+
+read entered_name 
+
+echo -e "\nWelcome to bash tutorial" $entered_name
+
 echo 'i=1; 
 for age in $@; 
 do if [[ "$age" -le 7 || "$age" -ge 65 ]] ; then
