@@ -8,7 +8,7 @@ elif [[ "$age" -gt 7 && "$age" -lt 65 ]] ; then
 fi
 i=$((i+1)); 
 done'
--rwxrwxrwx
+-rw-rw-rw-
 echo " Write in your age: "
 read age 
 
