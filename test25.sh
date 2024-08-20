@@ -8,9 +8,9 @@ elif [[ "$age" -gt 7 && "$age" -lt 65 ]] ; then
 fi
 i=$((i+1)); 
 done'
-
+-rwxrwxrwx
 echo " Write in your age: "
-read age </dev/tty
+read age 
 
 if [[ "$age" -le 7 || "$age" -ge 65 ]] ; then
     echo " You can walk in for free "
