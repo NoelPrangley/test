@@ -10,7 +10,7 @@ i=$((i+1));
 done'
 
 echo " Write in your age: "
-read age
+read age </dev/tty
 
 if [[ "$age" -le 7 || "$age" -ge 65 ]] ; then
     echo " You can walk in for free "
