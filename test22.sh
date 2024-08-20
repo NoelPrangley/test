@@ -9,11 +9,11 @@ fi
 i=$((i+1)); 
 done'
 
-echo 'echo "What is your name?" 
+echo "What is your name?" 
 
 read entered_name 
 
 echo -e "\nWelcome to bash tutorial" $entered_name
-'
+
 
  
