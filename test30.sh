@@ -8,10 +8,3 @@ elif [[ "$age" -gt 7 && "$age" -lt 65 ]] ; then
 fi
 i=$((i+1));
 done'
-
-b=1
-while [[ $b -le 10 ]] ; do
-   echo "$b"
-  (( b += 1 ))
-done
- 
