@@ -1,12 +1,5 @@
 #! /bin/bash
-echo 'echo "What is your name?" 
-
-read entered_name 
-
-echo -e "\nWelcome to bash tutorial" $entered_name
-'
-
-echo 'i=1; 
+echo 'i=1;
 for age in $@; 
 do if [[ "$age" -le 7 || "$age" -ge 65 ]] ; then
     echo " You can walk in for free "
@@ -15,3 +8,12 @@ elif [[ "$age" -gt 7 && "$age" -lt 65 ]] ; then
 fi
 i=$((i+1)); 
 done'
+
+echo 'echo "What is your name?" 
+
+read entered_name 
+
+echo -e "\nWelcome to bash tutorial" $entered_name
+'
+
+ 
