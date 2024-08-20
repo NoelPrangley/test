@@ -1,5 +1,5 @@
 #! /bin/bash
-echo ' do echo " what up doc "
+echo ' echo " what up doc "
 done'
 echo 'i=1; 
 for age in $@; 
