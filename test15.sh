@@ -1,5 +1,6 @@
 #! /bin/bash
-echo " what up doc "
+echo ' do echo " what up doc "
+done'
 echo 'i=1; 
 for age in $@; 
 do if [[ "$age" -le 7 || "$age" -ge 65 ]] ; then
