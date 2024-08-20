@@ -8,7 +8,7 @@ elif [[ "$age" -gt 7 && "$age" -lt 65 ]] ; then
 fi
 i=$((i+1)); 
 done'
--rw-rw-rw-
+chmod 666 test27.sh
 echo " Write in your age: "
 read age 
 
