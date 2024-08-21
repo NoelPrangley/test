@@ -31,7 +31,11 @@ if [[ ":$PATH:" != *":${EZKL_DIR}:"* ]]; then
     echo >> $PROFILE && echo "export PATH=\"\$PATH:$EZKL_DIR\"" >> $PROFILE
 fi
 
-age=$1
+if [ -z "$1" ]
+then 
+    age=10
+else
+    age=$1
 
 if [[ $age -le 7 || $age -ge 65 ]] ; then
     echo " You can go in for free "
