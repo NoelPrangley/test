@@ -1,2 +1,2 @@
 # test
-Use "bash ./script.sh |bash -s -- arg"
+Use "bash ./script.sh | bash -s -- arg"
